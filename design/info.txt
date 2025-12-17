@@ -1,0 +1,11 @@
+# 1. Установка зависимостей
+cmd /c npm install
+
+# 2. Запуск dev-сервера
+cmd /c npm run dev
+
+# 3. Сборка для продакшена
+cmd /c npm run build
+
+# 4. Предпросмотр продакшен-сборки
+cmd /c npm run preview
