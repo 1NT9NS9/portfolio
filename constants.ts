@@ -1,6 +1,11 @@
 import { Github, Linkedin, Send } from 'lucide-react';
 import { Project, SocialLink } from './types';
-import { PROJECT_IMAGES } from './assets/images';
+
+// Импортируем изображения, чтобы Vite корректно упаковал их и учитывал base-путь (/portfolio/)
+import botNewsImg from './design/bot_news.png';
+import botFinImg from './design/bot_fin.png';
+import botCryptoImg from './design/bot_crypto.png';
+import botMlImg from './design/bot_ml.png';
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
@@ -26,7 +31,7 @@ export const PROJECTS: Project[] = [
     title: 'News Assistant',
     category: 'AI',
     description: 'An AI assistant for creating news summaries from your sources.',
-    imageUrl: "./design/bot_news.png",
+    imageUrl: botNewsImg,
     projectUrl: 'https://t.me/FAST_NEWS_Al_BOT',
     githubUrl: 'https://github.com/1NT9NS9/fast-news-ai',
     tags: ['Product', 'AI', 'NLP'],
@@ -37,7 +42,7 @@ export const PROJECTS: Project[] = [
     title: 'Financial Assistant',
     category: 'Fintech | AI',
     description: 'Real-time financial analytics dashboard and AI assistant for creating investment portfolios exceeding market benchmarks.',
-    imageUrl: "./design/bot_fin.png",
+    imageUrl: botFinImg,
     githubUrl: 'https://github.com/1NT9NS9/finance-ai',
     tags: ['Technical Analysis', 'Macroeconomic indicators', 'AI'],
     color: 'bg-emerald-500',
@@ -47,7 +52,7 @@ export const PROJECTS: Project[] = [
     title: 'Cryptocurrency channel',
     category: 'Cryptocurrency',
     description: 'This is a channel where I talk about cryptocurrency projects in which I participate.',
-    imageUrl: "./design/bot_crypto.png",
+    imageUrl: botCryptoImg,
     projectUrl: 'https://t.me/ROADPROFIT',
     tags: ['Crypto', 'Trading', 'Investments'],
     color: 'bg-amber-500',
@@ -57,7 +62,7 @@ export const PROJECTS: Project[] = [
     title: 'Portfolio of ML projects',
     category: 'ML',
     description: 'Various machine learning projects are collected in one place.',
-    imageUrl: "./design/bot_ml.png",
+    imageUrl: botMlImg,
     githubUrl: 'https://github.com/1NT9NS9/1NT9NS9/blob/main/README(finance).md',
     tags: ['ML', 'NLP', 'AI'],
     color: 'bg-indigo-500',
