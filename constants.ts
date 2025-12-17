@@ -128,7 +128,7 @@ export const SKILLS_CATEGORIES = [
 
 export const INTRO_TEXT = {
   greeting: "Hello, I'm Dima.",
-  role: "AI Engineer | Product",
+  role: "AI Engineer | Product manager",
   bio: "I work on creating products based on artificial intelligence. I am passionate about programming and product development. My mission is to create maximum value for users.",
 };
 
