@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
     category: 'Hypothesis | AI',
     description: 'Testing the hypothesis with different agents and strategies.',
     imageUrl: botHypothesisImg,
-    githubUrl: 'https://github.com/1NT9NS9/portfolio',
+    githubUrl: 'https://github.com/1NT9NS9/agentic-01',
     tags: ['Agentic', 'Hypothesis', 'AI'],
     color: 'bg-amber-500',
   },
