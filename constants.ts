@@ -56,7 +56,7 @@ export const PROJECTS: Project[] = [
     imageUrl: botHypothesisImg,
     githubUrl: 'https://github.com/1NT9NS9/agentic-01',
     tags: ['Agentic', 'Hypothesis', 'AI'],
-    color: 'bg-amber-500',
+    color: 'bg-purple-500',
   },
   {
     id: '4',
