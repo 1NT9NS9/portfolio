@@ -4,6 +4,7 @@ import { Project, SocialLink } from './types';
 // Импортируем изображения, чтобы Vite корректно упаковал их и учитывал base-путь (/portfolio/)
 import botNewsImg from './design/bot_news.png';
 import botFinImg from './design/bot_fin.png';
+import botHypothesisImg from './design/bot_hypothesis.png';
 import botCryptoImg from './design/bot_crypto.png';
 import botMlImg from './design/bot_ml.png';
 
@@ -49,6 +50,16 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '3',
+    title: 'Assistant hypothesis',
+    category: 'Hypothesis | AI',
+    description: 'Testing the hypothesis with different agents and strategies.',
+    imageUrl: botHypothesisImg,
+    githubUrl: 'https://github.com/1NT9NS9/portfolio',
+    tags: ['Agentic', 'Hypothesis', 'AI'],
+    color: 'bg-amber-500',
+  },
+  {
+    id: '4',
     title: 'Cryptocurrency channel',
     category: 'Cryptocurrency',
     description: 'This is a channel where I talk about cryptocurrency projects in which I participate.',
@@ -58,7 +69,7 @@ export const PROJECTS: Project[] = [
     color: 'bg-amber-500',
   },
   {
-    id: '4',
+    id: '5',
     title: 'Portfolio of ML projects',
     category: 'ML',
     description: 'Various machine learning projects are collected in one place.',
