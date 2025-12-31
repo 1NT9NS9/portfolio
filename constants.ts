@@ -1,4 +1,4 @@
-import { Github, Linkedin, Send } from 'lucide-react';
+import { Github, Linkedin, Send, Twitter } from 'lucide-react';
 import { Project, SocialLink } from './types';
 
 // Импортируем изображения, чтобы Vite корректно упаковал их и учитывал base-путь (/portfolio/)
@@ -11,7 +11,7 @@ import botMlImg from './design/bot_ml.png';
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'Telegram',
-    url: 'https://t.me/Int9ns9',
+    url: 'https://t.me/kindagi',
     icon: Send,
   },
   {
@@ -19,10 +19,15 @@ export const SOCIAL_LINKS: SocialLink[] = [
     url: 'https://github.com/1NT9NS9',
     icon: Github,
   },
+  // {
+  //   name: 'LinkedIn',
+  //   url: 'https://www.linkedin.com/in/dmitriy-glotka/',
+  //   icon: Linkedin,
+  // },
   {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/dmitriy-glotka/',
-    icon: Linkedin,
+    name: 'X',
+    url: 'https://x.com/FAST_NEWS_AI', // Pending verification of exact handle
+    icon: Twitter,
   },
 ];
 
