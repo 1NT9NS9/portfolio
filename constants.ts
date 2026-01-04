@@ -26,7 +26,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   // },
   {
     name: 'X',
-    url: 'https://x.com/FAST_NEWS_AI', // Pending verification of exact handle
+    url: 'https://x.com/KIND_AGI', // Pending verification of exact handle
     icon: Twitter,
   },
 ];
