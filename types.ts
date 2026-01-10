@@ -7,6 +7,7 @@ export interface Project {
   description: string;
   imageUrl: string;
   githubUrl?: string;
+  githubUrl2?: string;
   projectUrl?: string;
   tags: string[];
   color: string; // Tailwind color class for accent
